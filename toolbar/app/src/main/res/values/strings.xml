@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">ToolBar Example</string>
-    <string name="titulo_fav">Favorito</string>
+    <string name="menu_fav">Favorito</string>
+    <string name="title_backup">backup</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_share">Share</string>
 </resources>

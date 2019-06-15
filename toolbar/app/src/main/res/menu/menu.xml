@@ -2,8 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/menu_search"
+            app:showAsAction="ifRoom|collapseActionView"
+            app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
             android:id="@+id/menu_fav"
-            android:title="@string/titulo_fav"
+            android:title="@string/menu_fav"
             android:icon="@drawable/fav"
             app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu_share"
+            android:title="@string/menu_share"
+            app:showAsAction="ifRoom"
+            app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
 </menu>
