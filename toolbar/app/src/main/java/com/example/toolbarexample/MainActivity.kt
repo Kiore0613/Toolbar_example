@@ -1,4 +1,4 @@
-package com.example.ejemplotoolbar
+package com.example.toolbarexample
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

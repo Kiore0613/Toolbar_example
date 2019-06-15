@@ -1,4 +1,4 @@
-package com.example.ejemplotoolbar
+package com.example.toolbarexample
 
 import org.junit.Test
 
